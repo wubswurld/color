@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as actions from '../actions';
 import { Input, Label, Button } from 'reactstrap';
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 import Paper from '@material-ui/core/Paper';
 // import SimpleSnackbar from './ContactSnack'
 
@@ -42,7 +43,10 @@ class Contact extends Component {
     render () {
         return (
             <>
-            <div class="" id="condiv">
+             <div id="navbar">
+                    <Link className="hvr-grow" id="logo" to="/"><p>Color.</p></Link>
+                    </div>
+            <div id="condiv">
                   <span class="" id="checkcon">Contact Color. Today</span>
                 </div>
             <form className='react-form' onSubmit={this.handleSubmit}>

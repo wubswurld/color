@@ -23,9 +23,9 @@ exports.sendmessage = function(req, res){
         });
 
         const mailOptions = {
-            from: 'scalablesolutionsceo@gmail.com',
+            from: 'color.clothing.us@gmail.com',
             to: email,
-            replyTo:'scalablesolutionsceo@gmail.com',
+            replyTo:'color.clothing.us@gmail.com',
             subject: 'Message Received',
             text: 'Thank you',
             html: userhtml
@@ -59,8 +59,8 @@ exports.sendmessage = function(req, res){
 
     const mailOptions = {
         from: email ,
-        to: 'scalablesolutionsceo@gmail.com',
-        replyTo:'scalablesolutionsceo@gmail.com',
+        to: 'color.clothing.us@gmail.com',
+        replyTo:'color.clothing.us@gmail.com',
         subject: 'New Contact',
         text: 'Thank you',
         html: userhtml
