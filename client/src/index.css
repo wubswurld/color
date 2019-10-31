@@ -9,6 +9,11 @@ body {
   background-color: #fbfbfb;
 }
 
+@font-face {
+  font-family: "MyFont";
+  src: local("MyFont"), url(./fonts/zreaksnfi.ttf) format("ttf");
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
