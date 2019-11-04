@@ -85,6 +85,7 @@ class Contact extends Component {
                 </div>
               </div>
             </Grid>
+            {/* <div className="svl"></div> */}
             <Grid item xs={6}>
               <div className="formdiv">
                 <form className="react-form" onSubmit={this.handleSubmit}>

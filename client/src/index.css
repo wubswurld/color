@@ -10,8 +10,8 @@ body {
 }
 
 @font-face {
-  font-family: "MyFont";
-  src: local("MyFont"), url(./fonts/zreaksnfi.ttf) format("ttf");
+  font-family: "Odd";
+  src: local("Odd"), url(./fonts/zreaksfi.ttf) format("ttf");
 }
 
 code {

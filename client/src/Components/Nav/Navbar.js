@@ -25,6 +25,15 @@ const BasicNav = props => {
         <NavbarBrand href="/" className="hvr-grow">
           <Icon id="icon"></Icon>
         </NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="ml-auto" navbar>
+            <NavItem id="navitem">
+              {/* <bold>here</bold> */}
+              {/* <NavLink href="/components/">Components</NavLink> */}
+            </NavItem>
+          </Nav>
+        </Collapse>
       </Navbar>
     </div>
   );
