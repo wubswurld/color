@@ -9,7 +9,7 @@
     "babel-runtime": "^6.26.0",
     "bootstrap": "^4.1.3",
     "hover.css": "^2.3.2",
-    "mongoose": "^5.4.16",
+    "mongoose": "^5.7.5",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-paypal-checkout": "^1.0.9",
